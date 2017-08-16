@@ -27,9 +27,6 @@ public class GildedRoseTest {
         GildedRose app = new GildedRose(items);
 
         int days = 2;
-        if (args.length > 0) {
-            days = Integer.parseInt(args[0]) + 1;
-        }
 
         for (int i = 0; i < days; i++) {
             System.out.println("-------- day " + i + " --------");
@@ -42,8 +39,8 @@ public class GildedRoseTest {
         }
 
 
-        //assertEquals("Aged Brie", app.items[1].name);
-        //SassertEquals(4, app.items[2].sellIn);
+        assertEquals("Aged Brie", app.items[1].name);
+        assertEquals(4, app.items[2].sellIn);
     }
 
 }
