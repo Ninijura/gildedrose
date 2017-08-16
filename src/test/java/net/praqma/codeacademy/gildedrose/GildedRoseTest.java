@@ -41,7 +41,7 @@ public class GildedRoseTest {
 
         assertEquals("Aged Brie", app.items[1].name);
         assertEquals(3, app.items[2].sellIn);
-        asswertEquals(80, app.items[4].quality);
+        assertEquals(80, app.items[4].quality);
     }
 
 }
