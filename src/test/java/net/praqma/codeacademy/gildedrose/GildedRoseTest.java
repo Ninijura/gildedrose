@@ -4,6 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/*
+ *This is a comment.
+ */
 public class GildedRoseTest {
 
     @Test
